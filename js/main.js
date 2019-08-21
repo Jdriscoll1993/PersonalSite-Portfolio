@@ -217,7 +217,7 @@
   slideImage();
   
   $.ajax({
-    url: "Data/techs.json"
+    url: "data/techs.json"
   }).done(techs)
     .fail(function (error) {
       console.log("error", error);
